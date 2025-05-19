@@ -6,8 +6,8 @@ public class MainClass {
 		try {
 			account.deposite(500);
 		}
-		catch (invalidAmount Exception e) {
-			System.out.println("Transaction error:"+e.getMessage);
+		catch (InvalidAmountException e) {
+			System.out.println("Transaction error:"+e.getMessage());
 		}
 		account.displayBalance();
 		}
